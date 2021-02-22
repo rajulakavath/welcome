@@ -24,19 +24,21 @@ html, body {
   }
 }*/
 
-@media only screen and (orientation:portrait){
+/*@media only screen and (orientation:portrait){
   body {
-    height: 100vw;
+    height: 100vh;
     transform: rotate(90deg);
   }
-}
-/*
+
+}*/
+
 @media all and (orientation: portrait) {
     body {
+        height: 100vw;
         -webkit-transform: rotate(90deg); 
         -moz-transform: rotate(90deg); 
         -ms-transform: rotate(90deg); 
         -o-transform: rotate(90deg); 
         transform: rotate(90deg); 
     }
-}*/
+}
