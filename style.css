@@ -29,6 +29,5 @@ html, body {
     height: 100vh;
     transform: rotate(90deg);
   }
-  .container {
-    width: 100vh;}
+  
 }
