@@ -12,11 +12,24 @@ html, body {
 .shadow-lg{box-shadow:0 1rem 3rem rgba(0,0,0,.175)!important}
 /* show border around full height container */
 
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+/*@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
   html {
     transform: rotate(-90deg);
     transform-origin: left top;
     width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+}*/
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+  html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    height: 100vw;
     overflow-x: hidden;
     position: absolute;
     top: 100%;
