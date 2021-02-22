@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Orientation Lock</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="1-lock.js"></script>
+  </head>
+  <body>
+    <h1>LOCK PORTRAIT</h1>
+    <input type="button" value="Lock - portrait" onclick="lock('portrait')"/>
+    <input type="button" value="Lock - portrait-primary" onclick="lock('portrait-primary')"/>
+    <input type="button" value="Lock - portrait-secondary" onclick="lock('portrait-secondary')"/>
+
+    <h1>LOCK LANDSCAPE</h1>
+    <input type="button" value="Lock - landscape" onclick="lock('landscape')"/>
+    <input type="button" value="Lock - landscape-primary" onclick="lock('landscape-primary')"/>
+    <input type="button" value="Lock - landscape-secondary" onclick="lock('landscape-secondary')"/>
+
+    <h1>UNLOCK</h1>
+    <input type="button" value="Unlock Orientation" onclick="unlock()"/>
+  </body>
+</html>
