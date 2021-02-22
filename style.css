@@ -24,14 +24,13 @@ html, body {
   }
 }*/
 
-/*@media only screen and (orientation:portrait){
+@media only screen and (orientation:portrait){
   body {
-    height: 100vh;
+    height: 100vw;
     transform: rotate(90deg);
   }
-
-}*/
-
+}
+/*
 @media all and (orientation: portrait) {
     body {
         -webkit-transform: rotate(90deg); 
@@ -40,4 +39,4 @@ html, body {
         -o-transform: rotate(90deg); 
         transform: rotate(90deg); 
     }
-}
+}*/
