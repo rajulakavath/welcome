@@ -4,7 +4,7 @@
     <title>Welcome to Tech world!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="1-lock.js"></script>
+    <script src="lock.js"></script>
   </head>
   <body>
     <!-- <h1>LOCK PORTRAIT</h1>
@@ -22,9 +22,15 @@
         <button type="button" class="btn btn-secondary" id="btnFullscreen">Fullscreen</button>  
       </div> -->
     </div>
+<!-- <button onclick="rotate(this)" id="button">
+  Lock
+</button>
+<button onclick="screen.orientation.unlock()" id="button">
+  Unlock
+</button> -->
 
     <!-- <h1>LOCK LANDSCAPE</h1> -->
-    <input type="button" class="btn btn-secondary ml-4 mr-2" value="Lock - landscape" onclick="lock('landscape')"/>
+    <input type="button" class="btn btn-secondary ml-4 mr-2" value="Landscape" onclick="rotate(this)" id="button"/>
     <!-- <input type="button" value="Lock - landscape-primary" onclick="lock('landscape-primary')"/>
     <input type="button" value="Lock - landscape-secondary" onclick="lock('landscape-secondary')"/> -->
     <!-- <h1>UNLOCK</h1> -->
