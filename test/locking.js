@@ -29,5 +29,3 @@ function unlock () {
     document.msExitFullscreen();
   }
 }
-
-
